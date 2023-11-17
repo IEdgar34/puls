@@ -1,0 +1,57 @@
+@media (max-width:1000px)
+    .header
+        padding: 0 20px
+        &__logo
+            max-width: 200px
+    .promo
+        &__wrapper
+            align-items: center
+
+
+@media (max-width:768px)
+    .header
+        padding: 0 10px
+        &__logo
+            /* width: 150px */
+        &__social
+            width: 0
+            height: 0
+            scale: 0
+            position: absolute                
+    .promo
+        &__wrapper
+            padding: 0 20px
+            margin-top: 60px    
+        &__title
+            font-size: 27px           
+        &__subtitle
+            text-align: center  
+            margin: 10px 0 0 0
+            font-size: 20px     
+        &__icons
+            max-width: 100%    
+
+
+@media (max-width:425px)
+    .header
+        flex-direction: column
+        gap: 15px
+        &__phone
+            width: 0
+            height: 0
+            scale: 0
+            position: absolute
+                    
+
+@media (max-width:375px) 
+    .promo
+        &__title
+            margin-bottom: 0    
+            font-size: 22px 
+        &__subtitle
+            font-size: 16px 
+        &__icons
+            flex-wrap: wrap  
+            align-items: center
+            justify-content: center
+            gap: 30px                        

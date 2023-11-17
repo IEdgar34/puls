@@ -1,0 +1,52 @@
+.advantages
+    max-width: 100%
+    min-height: 473px
+    padding: 70px 0 65px 0
+    background-color: #F6F6F6
+    &__title
+        padding-bottom: 65px
+        margin: 0
+        text-align: center
+        color: $text_color_black
+        font-size: 30px
+        font-style: normal
+        font-weight: 700
+        line-height: 30px
+    &__wrapper
+        max-width: 942px
+        display: flex
+        gap: 65px
+        margin: 0 auto
+    &__item
+        width: 33%
+        text-align: center
+        img
+            display: inline-block
+            max-width: 70px
+            max-height: 70px
+            margin-bottom: 30px
+            text-align: center
+        
+        &-title
+            margin-bottom: 20px
+            color: $text_color_black
+            font-size: 18px
+            font-style: normal
+            font-weight: 700
+            line-height: normal
+        &-subtitle
+            margin-bottom: 0
+            color: inherit   
+            font-size: 14px
+            font-style: normal
+            font-weight: 300
+            line-height: 18px
+            span
+                text-decoration-line: underline
+                color: #f00
+    .animation
+        animation: heartbeat 1s ease-out infinite
+        
+        &:hover
+            animation-play-state: paused
+            

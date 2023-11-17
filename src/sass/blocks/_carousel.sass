@@ -1,0 +1,65 @@
+.carousel
+    padding: 81px 0 81px 0
+    &__wrapper
+        max-width: 750px
+        margin: 0 auto
+        position: relative
+    .slick-slide
+        img
+            width: 100%      
+    .slick-prev
+        position: absolute
+        top: 50%
+        transform: translatey(-50%)
+        left: -66px
+        border: none
+        background-color: #fff
+    .slick-next  
+        position: absolute
+        top: 50%
+        transform: translatey(-50%)
+        right: -66px
+        border: none
+        background-color: #fff
+
+@media (max-width: 900px)
+    .carousel
+        padding-left: 20px
+        padding-right: 20px
+        &__wrapper
+            
+            width: 100% 
+        .slick-dots
+            display: flex !important
+            flex-direction: column
+            gap: 20px   
+            position: absolute
+            margin: 0
+            padding: 0
+            bottom: -95px   
+            left: 50%
+            transform: translateX(-50%) rotate(270deg) 
+            li
+                list-style-type: none 
+                &::after
+                    content: ""
+                    display: block
+                    width: 8px
+                    height: 8px
+                    background-color: black
+                    opacity: 0.5
+                    border-radius: 50%
+                    cursor: pointer
+                    transition: opacity 0.3s
+                button
+                    visibility: hidden
+                    /* width: 0 */
+                    /* height: 0 */
+                    /* scale: 0 */
+            .slick-active
+                &::after
+                    opacity: 1        
+        .slick-prev
+            display: none !important 
+        .slick-next 
+            display: none !important      
