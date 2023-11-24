@@ -42,7 +42,7 @@ $(document).ready(function(){
       });
 
      
-   /*  $('.card__link').each(function(i) {
+   /*  $('.card__link').each(function(i) {lic
         $(this).on('click',function(e) {
             e.preventDefault();
             $('.card__item-block').eq(i).toggleClass('card__item-block_active');
@@ -154,7 +154,7 @@ $(document).ready(function(){
       if ($(this).scrollTop() > 500){
         $('.pageup').fadeIn();
       }else{
-        $('.pageup').fadeOut();
+        $('.pageup').fadeOut(); q
       }
     });
 
