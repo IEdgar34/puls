@@ -154,7 +154,7 @@ $(document).ready(function(){
       if ($(this).scrollTop() > 500){
         $('.pageup').fadeIn();
       }else{
-        $('.pageup').fadeOut(); q
+        $('.pageup').fadeOut(); 
       }
     });
 
@@ -173,3 +173,4 @@ $(document).ready(function(){
     new WOW().init();
 	
 }); 
+
